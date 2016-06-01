@@ -238,22 +238,22 @@ public class TestsParaCubrirMutantes extends TestCase {
 
     }
 
-    public void testTirarDados() {
-        try {
-
-            tablero.setJugadorConElTurno(0);
-
-            java.lang.reflect.Method m = a.getClass().getDeclaredMethod("tirarDados");
-            m.setAccessible(true);
-            m.invoke(a);
-
-        } catch (Exception e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-            assertTrue(e.getCause() instanceof NoTieneElTurnoException);
-
-        }
-    }
+//    public void testTirarDados() {
+//        try {
+//
+//            tablero.setJugadorConElTurno(0);
+//
+//            java.lang.reflect.Method m = a.getClass().getDeclaredMethod("tirarDados");
+//            m.setAccessible(true);
+//            m.invoke(a);
+//
+//        } catch (Exception e) {
+//            // TODO Auto-generated catch block
+//            e.printStackTrace();
+//            assertTrue(e.getCause() instanceof NoTieneElTurnoException);
+//
+//        }
+//    }
 
     public void testTirarDadosConException() {
         try {
