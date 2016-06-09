@@ -16,7 +16,7 @@ import org.evosuite.runtime.sandbox.Sandbox.SandboxMode;
 
 @EvoSuiteClassExclude
 public class HelpFormatter_ESTest_scaffolding {
-
+ 
   private static final java.util.Properties defaultProperties = (java.util.Properties) java.lang.System.getProperties().clone(); 
 
   private org.evosuite.runtime.thread.ThreadStopper threadStopper =  new org.evosuite.runtime.thread.ThreadStopper (org.evosuite.runtime.thread.KillSwitchHandler.getInstance(), 3000);

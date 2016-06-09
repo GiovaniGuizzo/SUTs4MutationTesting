@@ -27,9 +27,9 @@ import org.evosuite.runtime.mock.java.io.MockPrintStream;
 import org.evosuite.runtime.mock.java.io.MockPrintWriter;
 import org.junit.runner.RunWith;
 import sun.nio.cs.MS1252;
-import sun.nio.cs.SingleByte;
+import sun.nio.cs.SingleByte; 
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true) 
+@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = false) 
 public class HelpFormatter_ESTest extends HelpFormatter_ESTest_scaffolding {
 
   //Test case number: 0
