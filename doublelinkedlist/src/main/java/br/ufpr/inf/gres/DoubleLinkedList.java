@@ -95,7 +95,7 @@ import java.util.NoSuchElementException;
  * @see Collections#synchronizedList(List)
  * @since 1.2
  */
-public class DoubleLinkedList {
+public class DoubleLinkedList implements Cloneable, java.io.Serializable {
 
     protected transient int modificationCount = 0;
     private transient Entry header = new Entry(null, null, null);
@@ -676,15 +676,18 @@ public class DoubleLinkedList {
         size--;
         modificationCount++;
     }
-
+    
     /**
      * Returns a shallow copy of this <tt>DoubleLinkedList</tt>. (The elements
      * themselves are not cloned.)
      *
      * @return a shallow copy of this <tt>DoubleLinkedList</tt> instance.
+     * @throws java.lang.CloneNotSupportedException
      */
-    public Object clone() {
+    @Override
+    public Object clone() throws CloneNotSupportedException {
         DoubleLinkedList clone = null;
+
         try {
             clone = (DoubleLinkedList) super.clone();
         } catch (CloneNotSupportedException e) {
@@ -798,6 +801,7 @@ public class DoubleLinkedList {
      * Reconstitute this <tt>DoubleLinkedList</tt> instance from a stream (that
      * is deserialize it).
      */
+    @SuppressWarnings("unchecked")
     private void readObject(java.io.ObjectInputStream s)
             throws java.io.IOException, ClassNotFoundException {
         // Read in any hidden serialization magic
