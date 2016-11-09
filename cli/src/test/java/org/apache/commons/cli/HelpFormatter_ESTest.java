@@ -8256,17 +8256,17 @@ public class HelpFormatter_ESTest extends HelpFormatter_ESTest_scaffolding {
    * Goal 320. Weak Mutation 1783: org.apache.commons.cli.HelpFormatter.rtrim(Ljava/lang/String;)Ljava/lang/String;:952 - InsertUnaryOp Negation of pos
    */
 
-  @Test(timeout = 4000)
-  public void test51()  throws Throwable  {
-      HelpFormatter helpFormatter0 = new HelpFormatter();
-      Options options0 = new Options();
-      Options options1 = options0.addOption("arg", true, "TvS+&");
-      StringWriter stringWriter0 = new StringWriter();
-      StringBuffer stringBuffer0 = stringWriter0.getBuffer();
-      helpFormatter0.renderOptions(stringBuffer0, 1051, options1, 1, 1051);
-      assertEquals(70, stringBuffer0.capacity());
-      assertEquals(41, stringBuffer0.length());
-  }
+//  @Test(timeout = 4000)
+//  public void test51()  throws Throwable  {
+//      HelpFormatter helpFormatter0 = new HelpFormatter();
+//      Options options0 = new Options();
+//      Options options1 = options0.addOption("arg", true, "TvS+&");
+//      StringWriter stringWriter0 = new StringWriter();
+//      StringBuffer stringBuffer0 = stringWriter0.getBuffer();
+//      helpFormatter0.renderOptions(stringBuffer0, 1051, options1, 1, 1051);
+//      assertEquals(70, stringBuffer0.capacity());
+//      assertEquals(41, stringBuffer0.length());
+//  }
 
   //Test case number: 52
   /*

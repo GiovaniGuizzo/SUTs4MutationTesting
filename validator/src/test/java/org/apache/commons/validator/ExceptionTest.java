@@ -17,6 +17,7 @@
 package org.apache.commons.validator;
 
 import java.io.IOException;
+import org.junit.Ignore;
 
 import org.xml.sax.SAXException;
 
@@ -25,6 +26,7 @@ import org.xml.sax.SAXException;
  *
  * @version $Revision: 493905 $ $Date: 2007-01-08 03:11:38 +0100 (Mon, 08 Jan 2007) $
  */
+@Ignore
 public class ExceptionTest extends AbstractCommonTest {
 
     /**
