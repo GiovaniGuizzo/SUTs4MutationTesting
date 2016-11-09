@@ -19,6 +19,7 @@
         <module>ordset</module>
         <module>jtcas</module>
         <module>doublelinkedlist</module>
+        <module>linkedlist</module>
     </modules>
     <dependencies>
         <dependency>
