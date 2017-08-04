@@ -1,0 +1,11 @@
+/home/japlima/github/SUTs4MutationTesting/commons-csv/src/main/java/org/apache/commons/csv/Constants.java
+/home/japlima/github/SUTs4MutationTesting/commons-csv/src/main/java/org/apache/commons/csv/Lexer.java
+/home/japlima/github/SUTs4MutationTesting/commons-csv/src/main/java/org/apache/commons/csv/CSVParser.java
+/home/japlima/github/SUTs4MutationTesting/commons-csv/src/main/java/org/apache/commons/csv/Token.java
+/home/japlima/github/SUTs4MutationTesting/commons-csv/src/main/java/org/apache/commons/csv/Assertions.java
+/home/japlima/github/SUTs4MutationTesting/commons-csv/src/main/java/org/apache/commons/csv/ExtendedBufferedReader.java
+/home/japlima/github/SUTs4MutationTesting/commons-csv/src/main/java/org/apache/commons/csv/CSVRecord.java
+/home/japlima/github/SUTs4MutationTesting/commons-csv/src/main/java/org/apache/commons/csv/CSVFormat.java
+/home/japlima/github/SUTs4MutationTesting/commons-csv/src/main/java/org/apache/commons/csv/package-info.java
+/home/japlima/github/SUTs4MutationTesting/commons-csv/src/main/java/org/apache/commons/csv/CSVPrinter.java
+/home/japlima/github/SUTs4MutationTesting/commons-csv/src/main/java/org/apache/commons/csv/QuoteMode.java

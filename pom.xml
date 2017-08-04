@@ -10,8 +10,17 @@
         <module>bub</module>
         <module>cal</module>
         <module>cli</module>
+        <module>commons-chain</module>
+        <module>commons-cli</module>
+        <module>commons-codec</module>
+        <module>commons-csv</module>
+        <module>commons-dbutils</module>
+        <module>commons-digester3</module>
+        <module>commons-lang3</module>
+        <module>commons-validator</module>                
         <module>find</module>
         <module>fourballs</module>        
+        <module>joda-time</module>
         <module>mid</module>
         <module>monopoly</module>
         <module>trytip</module>        
@@ -24,8 +33,8 @@
     <dependencies>
         <dependency>
             <groupId>org.evosuite</groupId>
-            <artifactId>evosuite</artifactId>
-            <version>1.0.3</version>
+            <artifactId>evosuite-standalone-runtime</artifactId>
+            <version>1.0.5</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
