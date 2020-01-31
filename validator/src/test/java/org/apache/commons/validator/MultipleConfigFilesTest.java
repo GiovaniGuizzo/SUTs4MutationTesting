@@ -20,6 +20,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 import junit.framework.TestCase;
+import org.junit.Ignore;
 
 import org.xml.sax.SAXException;
 
@@ -29,6 +30,7 @@ import org.xml.sax.SAXException;
  *
  * @version $Revision: 1094808 $ $Date: 2011-04-19 00:57:51 +0200 (Tue, 19 Apr 2011) $
  */
+@Ignore
 public class MultipleConfigFilesTest extends TestCase {
 
     /**

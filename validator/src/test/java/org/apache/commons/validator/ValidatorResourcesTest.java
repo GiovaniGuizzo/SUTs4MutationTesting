@@ -19,12 +19,14 @@ package org.apache.commons.validator;
 import java.io.InputStream;
 
 import junit.framework.TestCase;
+import org.junit.Ignore;
 
 /**
  * Test ValidatorResources.
  *
  * @version $Revision: 1094804 $
  */
+@Ignore
 public class ValidatorResourcesTest extends TestCase {
 
     /**

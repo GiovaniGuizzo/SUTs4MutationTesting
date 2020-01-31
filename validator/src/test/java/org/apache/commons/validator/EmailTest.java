@@ -17,6 +17,7 @@
 package org.apache.commons.validator;
  
 import java.io.IOException;
+import org.junit.Ignore;
 
 import org.xml.sax.SAXException;
 
@@ -27,6 +28,7 @@ import org.xml.sax.SAXException;
  * @version $Revision: 1128342 $ $Date: 2011-05-27 17:00:45 +0200 (Fri, 27 May 2011) $
  * @deprecated to be removed when target class is removed
  */
+@Ignore
 public class EmailTest extends AbstractCommonTest {
 
     /**

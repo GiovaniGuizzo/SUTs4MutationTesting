@@ -19,6 +19,7 @@ package org.apache.commons.validator;
 import java.io.InputStream;
 
 import junit.framework.TestCase;
+import org.junit.Ignore;
 
 /**
  * <p>Performs tests for extension in form definitions. Performs the same tests
@@ -28,6 +29,7 @@ import junit.framework.TestCase;
  *
  * @version $Revision: 1094751 $ $Date: 2011-04-18 23:17:40 +0200 (Mon, 18 Apr 2011) $
  */
+@Ignore
 public class ExtensionTest extends TestCase {
 
     /**

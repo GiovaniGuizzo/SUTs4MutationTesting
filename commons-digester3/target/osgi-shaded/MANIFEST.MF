@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Bundle-Description: The Apache Commons Digester package lets you confi
+ gure an XML to Java    object mapping module which triggers certain a
+ ctions called rules whenever    a particular pattern of nested XML el
+ ements is recognized.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.apache.commons.digester
+Built-By: japlima
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1501873981600
+Bundle-DocURL: http://commons.apache.org/digester/
+Include-Resource: META-INF/NOTICE.txt=NOTICE.txt,META-INF/LICENSE.txt=
+ LICENSE.txt,org/apache/commons/digester3/xmlrules/digester-rules.dtd=
+ src/main/resources/org/apache/commons/digester3/xmlrules/digester-rul
+ es.dtd
+Bundle-Vendor: The Apache Software Foundation
+Import-Package: javax.xml.parsers,javax.xml.validation,org.w3c.dom,org
+ .xml.sax,org.xml.sax.helpers
+Tool: Bnd-1.43.0
+Export-Package: org.apache.commons.digester3.binder;version="3.2",org.
+ apache.commons.digester3.annotations.utils;version="3.2",org.apache.c
+ ommons.digester3.substitution;version="3.2",org.apache.commons.digest
+ er3;version="3.2",org.apache.commons.digester3.annotations.rules;vers
+ ion="3.2",org.apache.commons.digester3.plugins.strategies;version="3.
+ 2",org.apache.commons.digester3.annotations.handlers;version="3.2",or
+ g.apache.commons.digester3.annotations.reflect;version="3.2",org.apac
+ he.commons.digester3.annotations;version="3.2",org.apache.commons.dig
+ ester3.xmlrules;version="3.2",org.apache.commons.digester3.plugins;ve
+ rsion="3.2"
+Bundle-Version: 3.2.0
+Bundle-Name: Apache Commons Digester
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_131
+

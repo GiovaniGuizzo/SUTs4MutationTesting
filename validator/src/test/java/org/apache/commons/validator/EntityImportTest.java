@@ -18,6 +18,7 @@ package org.apache.commons.validator;
 
 import java.net.URL;
 import java.util.Locale;
+import org.junit.Ignore;
 
 
 /**                                                       
@@ -25,6 +26,7 @@ import java.util.Locale;
  *
  * @version $Revision: 1094751 $ $Date: 2011-04-18 23:17:40 +0200 (Mon, 18 Apr 2011) $
  */
+@Ignore
 public class EntityImportTest extends AbstractCommonTest {
 
     public EntityImportTest(String name) {

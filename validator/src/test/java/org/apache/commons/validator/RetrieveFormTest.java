@@ -20,6 +20,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Locale;
 import junit.framework.TestCase;
+import org.junit.Ignore;
 import org.xml.sax.SAXException;
 
 /**
@@ -27,6 +28,7 @@ import org.xml.sax.SAXException;
  *
  * @version $Revision: 1094738 $ $Date: 2011-04-18 22:51:21 +0200 (Mon, 18 Apr 2011) $
  */
+@Ignore
 public class RetrieveFormTest extends TestCase {
 
     /**

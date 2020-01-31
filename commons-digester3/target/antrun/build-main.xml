@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy todir="/home/japlima/github/SUTs4MutationTesting/commons-digester3/target/classes-shaded/META-INF/" overwrite="true">
+    <fileset dir="/home/japlima/github/SUTs4MutationTesting/commons-digester3/src/main/assembly/">
+      <include name="*.txt"/>
+    </fileset>
+    <mapper from="^(.*)-with-deps\.txt" to="\1.txt" type="regexp"/>
+  </copy>
+</target>
+</project>
